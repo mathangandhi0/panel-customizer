@@ -1,0 +1,17 @@
+/*
+ * Panel Customizer — stylesheet.css
+ *
+ * This file is loaded as the extension's base stylesheet.
+ * The actual dynamic rules (background-color, height, text-color)
+ * are injected programmatically by extension.js at runtime via a
+ * temporary CSS file, so changes in GSettings are reflected
+ * immediately without a Shell restart.
+ *
+ * You may add any static overrides here that should always apply,
+ * for example subtle border or shadow tweaks.
+ */
+
+/* Example static rule – uncomment to always add a bottom shadow */
+/* #panel {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+} */

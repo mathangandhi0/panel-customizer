@@ -1,0 +1,10 @@
+{
+  "uuid": "panel-customizer@mathangandhi0.github.io",
+  "name": "Panel Customizer",
+  "description": "Customize the top panel background color, transparency, height, and text color. Optionally apply the same theme to dropdown menus.",
+  "shell-version": ["45", "46", "47", "48", "49", "50", "51"],
+  "version": 1,
+  "settings-schema": "org.gnome.shell.extensions.panel-customizer",
+  "gettext-domain": "panel-customizer",
+  "url": "https://github.com/mathangandhi0/panel-customizer"
+}

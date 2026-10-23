@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.panel-customizer"
+          path="/org/gnome/shell/extensions/panel-customizer/">
+
+    <!-- Background color as a CSS color string (default: dark semi-transparent) -->
+    <key name="background-color" type="s">
+      <default>"rgba(0,0,0,0.75)"</default>
+      <summary>Panel Background Color</summary>
+      <description>CSS color string for the top panel background.</description>
+    </key>
+
+    <!-- Panel height in pixels (range 20–80) -->
+    <key name="panel-height" type="i">
+      <range min="20" max="80"/>
+      <default>32</default>
+      <summary>Panel Height</summary>
+      <description>Height of the top panel in pixels.</description>
+    </key>
+
+    <!-- Transparency / opacity multiplier (0.0 = fully transparent, 1.0 = fully opaque) -->
+    <key name="transparency" type="d">
+      <range min="0.0" max="1.0"/>
+      <default>0.75</default>
+      <summary>Panel Transparency</summary>
+      <description>Opacity multiplier applied to the panel background alpha channel.</description>
+    </key>
+
+    <!-- Text / icon color as a CSS color string -->
+    <key name="text-color" type="s">
+      <default>"#ffffff"</default>
+      <summary>Panel Text Color</summary>
+      <description>CSS color string for panel text and icons.</description>
+    </key>
+
+    <!-- Whether to apply the color theme to dropdown menus as well -->
+    <key name="style-menus" type="b">
+      <default>false</default>
+      <summary>Style Dropdown Menus</summary>
+      <description>Apply the panel color theme to dropdown menus (calendar, system tray, quick settings, etc.).</description>
+    </key>
+
+  </schema>
+</schemalist>
